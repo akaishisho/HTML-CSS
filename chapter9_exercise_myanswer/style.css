@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ff9a4b;
+  height: 50px;
+  margin: 0 auto;
+}
+.container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.container-item1 {
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+}
+.container-image1 {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  width: 280px;
+  margin: 10px;
+}
+.container-item2 {
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+  margin: 0 30px 0 30px;
+}
+.container-image2 {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  width: 280px;
+  margin: 10px;
+}
+.container-item3 {
+  width: 300px;
+  height: 300px;
+  background-color: #eeeeee;
+}
+.container-image3 {
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+  width: 280px;
+  margin: 10px;
+}
+h3 {
+  position: relative;
+  top: 120px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-family: "Hiragino Maru Gothic ProN W4", "YuGothic";
+}
+p {
+  position: relative;
+  top: 115px;
+  font-family: " Meiryo", "Hiragino Maru Gothic ProN W4";
+  font-size: 14px;
+}
+span {
+  font-family: " Meiryo", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: floralwhite;
+  background-color: orange;
+  position: relative;
+  bottom: 11px;
+  right: 10px;
+}
+footer {
+  background-color: #aaaaaa;
+  height: 50px;
+}
